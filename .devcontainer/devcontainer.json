@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "dbaeumer.vscode-eslint"
+  ],
+  "forwardPorts": [5000]
+}
